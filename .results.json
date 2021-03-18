@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 5,
+    "passes": 0,
+    "pending": 0,
+    "failures": 5,
+    "start": "2021-03-18T12:38:22.761Z",
+    "end": "2021-03-18T12:38:23.101Z",
+    "duration": 340
+  },
+  "tests": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'bob'",
+        "showDiff": true,
+        "expected": "bob",
+        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:4:38)\n    at processImmediate (node:internal/timers:463:21)"
+      }
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'bob'",
+        "showDiff": true,
+        "expected": "bob",
+        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:10:38)\n    at processImmediate (node:internal/timers:463:21)"
+      }
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: setBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:21:7)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "setBestCustomer is not defined"
+      }
+    },
+    {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: overwriteBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:29:7)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "overwriteBestCustomer is not defined"
+      }
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: changeLeastFavoriteCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:37:14)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "changeLeastFavoriteCustomer is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'bob'",
+        "showDiff": true,
+        "expected": "bob",
+        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:4:38)\n    at processImmediate (node:internal/timers:463:21)"
+      }
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'bob'",
+        "showDiff": true,
+        "expected": "bob",
+        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:10:38)\n    at processImmediate (node:internal/timers:463:21)"
+      }
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: setBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:21:7)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "setBestCustomer is not defined"
+      }
+    },
+    {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: overwriteBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:29:7)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "overwriteBestCustomer is not defined"
+      }
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: changeLeastFavoriteCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:37:14)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "changeLeastFavoriteCustomer is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
