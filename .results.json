@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-04-15T23:12:04.599Z",
+    "end": "2021-04-15T23:12:05.833Z",
+    "duration": 1234
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook in \"{root}\"",
+      "fullTitle": "\"before all\" hook in \"{root}\"",
+      "duration": 1230,
+      "currentRetry": 0,
+      "err": {
+        "stack": "SecurityError: localStorage is not available for opaque origins\n    at Window.get localStorage [as localStorage] (node_modules/mocha-jsdom/node_modules/jsdom/lib/jsdom/browser/Window.js:257:15)\n    at propagateToGlobal (node_modules/mocha-jsdom/index.js:95:14)\n    at Object.done (node_modules/mocha-jsdom/index.js:59:9)\n    at /Users/musiccity365/Development/online-software-engineering-pt-first-mile/js-principles-scope-lab/node_modules/mocha-jsdom/node_modules/jsdom/lib/old-api.js:366:18\n    at processTicksAndRejections (node:internal/process/task_queues:76:11)",
+        "uncaught": true,
+        "multiple": [
+          {
+            "uncaught": true,
+            "multiple": "SecurityError: localStorage is not available for opaque origins"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": []
+}
