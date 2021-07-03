@@ -12,5 +12,7 @@ const src = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
 console.log(src);
 
 jsdom({
-  html, src
+    html,
+    src,
+    url: 'http://localhost'
 });

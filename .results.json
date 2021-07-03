@@ -5,44 +5,54 @@
     "passes": 5,
     "pending": 0,
     "failures": 0,
-    "start": "2021-04-16T00:09:20.584Z",
-    "end": "2021-04-16T00:09:21.459Z",
-    "duration": 875
+    "start": "2021-07-03T22:15:48.912Z",
+    "end": "2021-07-03T22:15:49.872Z",
+    "duration": 960
   },
   "tests": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
       "duration": 0,
       "currentRetry": 0,
+      "speed": "fast",
       "err": {}
     },
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 1,
+      "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
+      "duration": 0,
       "currentRetry": 0,
+      "speed": "fast",
       "err": {}
     },
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 0,
+      "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
+      "duration": 1,
       "currentRetry": 0,
+      "speed": "fast",
       "err": {}
     },
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
       "duration": 0,
       "currentRetry": 0,
+      "speed": "fast",
       "err": {}
     },
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
       "duration": 1,
       "currentRetry": 0,
+      "speed": "fast",
       "err": {}
     }
   ],
@@ -52,36 +62,46 @@
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
       "duration": 0,
       "currentRetry": 0,
+      "speed": "fast",
       "err": {}
     },
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 1,
+      "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
+      "duration": 0,
       "currentRetry": 0,
+      "speed": "fast",
       "err": {}
     },
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 0,
+      "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
+      "duration": 1,
       "currentRetry": 0,
+      "speed": "fast",
       "err": {}
     },
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
       "duration": 0,
       "currentRetry": 0,
+      "speed": "fast",
       "err": {}
     },
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
       "duration": 1,
       "currentRetry": 0,
+      "speed": "fast",
       "err": {}
     }
   ]
