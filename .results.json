@@ -5,9 +5,9 @@
     "passes": 5,
     "pending": 0,
     "failures": 0,
-    "start": "2021-07-03T22:15:48.912Z",
-    "end": "2021-07-03T22:15:49.872Z",
-    "duration": 960
+    "start": "2021-08-28T22:00:56.605Z",
+    "end": "2021-08-28T22:00:57.573Z",
+    "duration": 968
   },
   "tests": [
     {
@@ -23,7 +23,7 @@
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
       "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -32,7 +32,7 @@
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
       "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -72,7 +72,7 @@
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
       "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -81,7 +81,7 @@
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
       "file": "/Users/musiccity365/Development/online-software-engineering-pt-120720/js-principles-scope-lab/test/indexTest.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
